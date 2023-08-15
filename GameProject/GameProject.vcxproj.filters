@@ -33,5 +33,166 @@
     <ClCompile Include="Game.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="EnemyManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelGrid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BurgerPartComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="BurgerPartPrefab.cpp">
+      <Filter>Prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="DamageComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyAIComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="PepperComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="PointsComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="StunEnemyComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="UsePepperCommand.cpp">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeCommand.cpp">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="ThumbstickMoveCommand.cpp">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="SkipLevelCommand.cpp">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="SetActiveSceneCommand.cpp">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveCommand.cpp">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="NotStunnedState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="StunnedState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerPrefab.cpp">
+      <Filter>Prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="TexturedGameObjectPrefab.cpp">
+      <Filter>Prefabs</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BurgerPartComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="DamageComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyAIComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="PepperComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="PointsComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="StunEnemyComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="BurgerPartEvents.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyDiedEvent.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerMovedEvent.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerGotDamagedEvent.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerDiedEvent.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="BurgerPartPrefab.h">
+      <Filter>Prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerPrefab.h">
+      <Filter>Prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="TexturedGameObjectPrefab.h">
+      <Filter>Prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelGrid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveCommand.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="SetActiveSceneCommand.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="SkipLevelCommand.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="ThumbstickMoveCommand.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeCommand.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="UsePepperCommand.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="NotStunnedState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="StunnedState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imgui.ini" />
   </ItemGroup>
 </Project>

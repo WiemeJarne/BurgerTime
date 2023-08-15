@@ -190,7 +190,64 @@ xcopy "$(SolutionDir)3rdParty\SDL2_mixer\lib\$(PlatformTarget)\*.dll" "$(OutputP
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BurgerPartComponent.cpp" />
+    <ClCompile Include="BurgerPartPrefab.cpp" />
+    <ClCompile Include="DamageComponent.cpp" />
+    <ClCompile Include="EnemyAIComponent.cpp" />
+    <ClCompile Include="EnemyManager.cpp" />
     <ClCompile Include="Game.cpp" />
+    <ClCompile Include="HealthComponent.cpp" />
+    <ClCompile Include="LevelGrid.cpp" />
+    <ClCompile Include="LevelManager.cpp" />
+    <ClCompile Include="MoveCommand.cpp" />
+    <ClCompile Include="MoveComponent.cpp" />
+    <ClCompile Include="NotStunnedState.cpp" />
+    <ClCompile Include="PepperComponent.cpp" />
+    <ClCompile Include="PlayerPrefab.cpp" />
+    <ClCompile Include="PointsComponent.cpp" />
+    <ClCompile Include="SetActiveSceneCommand.cpp" />
+    <ClCompile Include="SkipLevelCommand.cpp" />
+    <ClCompile Include="StunEnemyComponent.cpp" />
+    <ClCompile Include="StunnedState.cpp" />
+    <ClCompile Include="TexturedGameObjectPrefab.cpp" />
+    <ClCompile Include="ThumbstickMoveCommand.cpp" />
+    <ClCompile Include="TypeCommand.cpp" />
+    <ClCompile Include="TypeComponent.cpp" />
+    <ClCompile Include="UsePepperCommand.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BurgerPartComponent.h" />
+    <ClInclude Include="BurgerPartEvents.h" />
+    <ClInclude Include="BurgerPartPrefab.h" />
+    <ClInclude Include="DamageComponent.h" />
+    <ClInclude Include="EnemyAIComponent.h" />
+    <ClInclude Include="EnemyDiedEvent.h" />
+    <ClInclude Include="EnemyManager.h" />
+    <ClInclude Include="EnemyState.h" />
+    <ClInclude Include="HealthComponent.h" />
+    <ClInclude Include="LevelGrid.h" />
+    <ClInclude Include="LevelManager.h" />
+    <ClInclude Include="MoveCommand.h" />
+    <ClInclude Include="MoveComponent.h" />
+    <ClInclude Include="NotStunnedState.h" />
+    <ClInclude Include="PepperComponent.h" />
+    <ClInclude Include="PlayerDiedEvent.h" />
+    <ClInclude Include="PlayerGotDamagedEvent.h" />
+    <ClInclude Include="PlayerMovedEvent.h" />
+    <ClInclude Include="PlayerPrefab.h" />
+    <ClInclude Include="PointsComponent.h" />
+    <ClInclude Include="SetActiveSceneCommand.h" />
+    <ClInclude Include="SkipLevelCommand.h" />
+    <ClInclude Include="StunEnemyComponent.h" />
+    <ClInclude Include="StunnedState.h" />
+    <ClInclude Include="TexturedGameObjectPrefab.h" />
+    <ClInclude Include="ThumbstickMoveCommand.h" />
+    <ClInclude Include="TypeCommand.h" />
+    <ClInclude Include="TypeComponent.h" />
+    <ClInclude Include="UsePepperCommand.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imgui.ini" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
